@@ -1,0 +1,282 @@
+/*******************navBar********************/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:7px 0 20px 0;
+    position:absolute;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+nav h1{
+    color: white;
+    font-size: 2.3em;
+}
+.navContent{
+    margin-top:15px;
+    display: flex; 
+    justify-content: space-between;
+}
+#cont{
+    margin-right: 50px;
+    text-decoration: none;
+   font-weight: 600;
+   font-size: 1.1em;
+    color: white;
+}
+nav button{
+    margin-top: 13px;
+    margin-left: 80px;
+    width: 120px;
+    border-radius: 100px;
+    border: white solid 1px;
+    color:white;
+    font-weight: 600;
+    background: none;
+}
+/*****contactUs****/
+.showContact{
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6) ;
+}
+#close-btn{
+    position: absolute;
+    top:10px;
+    right:0 ;
+    color: antiquewhite;
+    font-size: 1.5em;
+    border: none;
+    background: none;}
+/*****************Home*********************/
+.header{
+    background: url('https://media.cntraveler.com/photos/628fe0c195fdcf29752f5136/master/w_3992,h_2661,c_limit/Palawan-GettyImages-985553596.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 49vw;
+    text-align: center;
+  }
+  #header-content{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+#header-content>p{
+font-size: 2em;
+padding-top: 16vw;
+font-weight: 600;
+}
+#header-content>h1{
+    font-size: 4.9em;
+    padding-top: 3vw;
+}
+#discover{
+    padding: 15px;
+    margin-top: 4.5vw;
+    font-weight: 600;
+    font-size: 1em;
+    background:rgba(255,180,52, 0.8);
+    color: white;
+    border: solid white 1px;
+    border-radius: 25px;
+}
+.showVideo{
+    width: 100vw;
+    height: 100vw;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9) ;
+    text-align: center;
+    padding-top: 150px;
+}
+#close{
+    position: absolute;
+    top:50px;
+    right:80px ;
+    color: antiquewhite;
+    font-size: 1.5em;
+    border: none;
+    background: none;
+}
+/***PopularDestination***/
+.popDest{
+    display: flex;
+    justify-content: space-between;
+    height: 40vw;
+    background:linear-gradient(0deg,rgba(255, 255, 255, 0),whitesmoke),url(https://www.lighthouse-geo.com/wp-content/uploads/2022/11/World-Map-PNG-Photos.png);
+    background-size: 70%;
+    background-position-x:10vw;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    box-shadow: 9px 10px 10px 9px grey;
+}
+#pop{
+    padding: 40px 0 8px 50px;
+    margin: 0;
+    font-size: 2.5em;
+    color: #00776f;
+    width: 100px;
+}
+.popDestCont{
+    margin: 0;
+}
+.destHome{
+padding-top: 80px;
+padding-left: 50px;
+display: flex;
+justify-content: space-between;
+width: 60vw;
+margin-right: 80px;
+gap: 50px;
+}
+/***/
+.cardHome{
+    width: 35%;
+    height: 25vw;
+    position: relative;
+}
+.cardHome img{
+    width: 100%;
+    height: 100%;
+}
+#contentPop{
+    position:absolute;
+    width: 90%;
+    color: white;
+    top: 230px;
+    left: 20px;
+}
+/**PopularTours***/
+.popularTours{
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0),whitesmoke),url(https://worldtouristspots.com/wp-content/uploads/2021/10/15-different-types-of-vacations-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vw;
+    text-align: center;
+}
+.popularTours h1{
+    padding-top: 20px;
+    padding-bottom:8px;
+    font-size: 2.5em;
+    color: #00776f;
+
+}
+#view{
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 500;
+color: #ffb434;
+
+}
+
+
+/*********Destinations************/
+.destHeader{
+    background: url(https://media.cntraveller.com/photos/611bed307048754865719a7c/16:9/w_2580,c_limit/2021.jpg);
+    background-size: cover;
+    height: 27.5vw;
+}
+.destCards{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap:100px;
+    padding: 50px;
+}
+/***Destination Card***/
+.cardDest{
+    height: 30vw;
+    width: 90%;
+    background-color: #00776f;
+    position: relative;
+}
+.cardDest img{
+    width: 100%;
+    height: 100%;
+}
+.destinationContent{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgb(0, 0, 0,0.3);
+    position: absolute;
+}
+#cardCont{
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 50px;
+    color: white;
+}
+#cardCont h1{
+font-size: 3.5em;
+}
+/**********************Tours*******************/
+.tourHeader{
+    height: 30vw;
+    background: url(https://www.mercierzeng.com/image/top-destinations/guilin-photography-tour.jpg);
+    background-size: cover;
+    background-position-y: -15vw;
+    background-repeat: no-repeat;
+}
+.tourCards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 150px 100px 100px 100px ;
+    gap: 50px;
+}
+/***tourCard***/
+.cardTour{
+    width: 20%;
+    height: 25vw;
+    position: relative;
+
+}
+.cardTour img{
+    width: 100%;
+    height: 100%;
+}
+.tourContent{
+height: 100%;
+width: 100%;
+background-color: rgb(0, 0, 0,0.3);
+color:white;
+position: absolute;
+text-align: center;
+top: 0;
+display: none;
+}
+.tourContent:hover{
+    display:block;
+}
+.tourContent h2{
+margin-top: 150px;
+}
+#showBtn{
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #ffb434;
+    border: solid white 2px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+button{
+    cursor: pointer;
+}
