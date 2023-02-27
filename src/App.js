@@ -14,7 +14,7 @@ function App() {
     <Routes> 
       <Route path='/' element={<Home/>}/>
       <Route path='/destinations' element={<Destinations/>}/>
-      <Route path='/destination' element={<Destination/>}/>
+      <Route path='/destination/:id' element={<Destination/>}/>
       <Route path='/tours' element={<Tours/>}/>
       <Route path='/galery' element={<Galery/>}/>
       <Route path='*' element={<h1 id='not'>Not Found</h1>}/>

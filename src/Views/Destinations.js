@@ -8,7 +8,7 @@ const Destinations = () => {
   return (
     <>
     <div className='destHeader'>
-
+      <h1>Find Your Best Destination</h1> 
     </div>
     <div className='destCards'>
       {destinations.map((dest,i) => (

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../Style/style.css'
 const TourCard = ({tour}) => {
   return (
     <div className='cardTour'>

@@ -12,7 +12,7 @@ export const data= [
     {
       id: 1,
       destination: 'Asia',
-      img: 'https://cdn-hakmf.nitrocdn.com/ddUoPUNflOjQnVsJhDWiygvsfjoAJdjc/assets/images/optimized/rev-007dd8a/wp-content/uploads/2018/11/thailand.jpg',
+      img: 'https://images.unsplash.com/photo-1584891769204-f355b6ed7aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80',
       img1:'https://thedestinationexperience.com/wp-content/uploads/2023/01/pexels-stijn-dijkstra-2499699-scaled.jpg',
       img2:'https://thefoodellers.com/wp-content/uploads/2022/01/Best-Romantic-Places-to-Visit-in-Europe.png',
       img3:'https://static.toiimg.com/photo/95013927/95013927.jpg?v=3',
@@ -30,8 +30,8 @@ export const data= [
   {
     id: 3,
     destination: 'Australia',
-    img: 'https://media.cntraveler.com/photos/61237e07cdc5e31256a6bde1/3:1/w_5735,h_1911,c_limit/Austria_GettyImages-1146702072.jpg',
-    img1:'https://preview.redd.it/ete1ukcbbb361.jpg?auto=webp&s=9d3482e07ceba4cc17716296770dfd6e910d3b19',
+    img: 'https://www.puredestinations.co.uk/wp-content/uploads/2019/05/top-10-places-in-australia-luxury-australia-holiday-packages-header--1600x500.jpg',
+    img1:'https://images.unsplash.com/photo-1583826688115-ff62f2c88f02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80',
       img2:'https://thefoodellers.com/wp-content/uploads/2022/01/Best-Romantic-Places-to-Visit-in-Europe.png',
       img3:'https://static.toiimg.com/photo/95013927/95013927.jpg?v=3',
     desc: 'Experience the natural beauty of Australia.',
@@ -46,6 +46,7 @@ export const tours=[
         image: 'https://images.unsplash.com/photo-1564594736624-def7a10ab047?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80',
         description: 'Discover the romance and culture of the City of Lights!',
         destinationId:0,
+        photo:'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
         plan: [
           {
             id: 0,
@@ -76,6 +77,7 @@ export const tours=[
         image: 'https://i.pinimg.com/736x/42/16/24/42162414a7983208c45a684fc947e505.jpg',
         description: 'Experience the ancient history and delicious cuisine of Rome!',
         destinationId:0,
+        photo:'https://images.unsplash.com/photo-1596627116790-af6f46dddbda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
         plan: [
           {
             id: 0,
@@ -107,6 +109,7 @@ export const tours=[
         image: 'https://images.unsplash.com/photo-1503899036084-c55cdd92da26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
         description: 'Discover the futuristic cityscape and rich traditions of Tokyo!',
         destinationId:1,
+        photo:'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=894&q=80',
         plan: [
           {
             id: 0,
@@ -137,6 +140,7 @@ export const tours=[
           image: 'https://miro.medium.com/max/1400/0*huY1N0g9a5gMekEW',
           description: 'Relax on beautiful beaches and explore ancient temples in Bali!',
         destinationId:1,
+        photo:'https://images.unsplash.com/photo-1555400038-63f5ba517a47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
           plan: [
             {
               id: 0,
@@ -169,6 +173,7 @@ export const tours=[
     image: 'https://images.unsplash.com/photo-1576485375217-d6a95e34d043?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FwZSUyMHRvd258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
     description: 'Experience the natural beauty and culture of Cape Town with our guided tours!',
     destinationId:2,
+    photo:'https://images.unsplash.com/photo-1496497243327-9dccd845c35f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
     plan: [
       {
         id: 0,
@@ -199,6 +204,7 @@ export const tours=[
   image: 'https://images.unsplash.com/photo-1548018560-cd92fb00373f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
   description: 'Experience the vibrant culture and cuisine of Marrakech with our guided tours!',
   destinationId:2,
+  photo:'https://images.unsplash.com/photo-1510952267577-fc96d5ca660a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
   plan: [
     {
       id: 0,
@@ -229,6 +235,8 @@ export const tours=[
     name: 'Sydney',
     image: 'https://images.unsplash.com/photo-1549180030-48bf079fb38a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN5ZG5leSUyMGF1c3RyYWxpYXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60',
     description: 'Experience the beauty and excitement of Sydney with our guided tours!',
+    destinationId:3,
+    photo:'https://images.unsplash.com/photo-1547006933-a4ab8704ef6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
     plan: [
       {
         id: 0,
@@ -258,6 +266,8 @@ export const tours=[
     name: 'Great Barrier Reef',
     image: 'https://m.fourseasons.com/alt/img-opt/~70..582,6585-0,0000-1834,6829-2786,0000/publish/content/dam/fourseasons/images/web/JTT/JTT_280_original.jpg',
     description: 'Experience the natural wonder of the Great Barrier Reef with our guided tours!',
+    destinationId:3,
+    photo:'https://ladyelliot.com.au/wp-content/uploads/2019/09/Gallery-5-1.jpg',
     plan: [
       {
         id: 0,

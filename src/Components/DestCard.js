@@ -10,7 +10,7 @@ const DestCard = ({dest}) => {
     <div id='cardCont'>
     <h1>{dest.destination}</h1>
     <h2>{dest.desc}</h2>
-    <Link to={'/destination'}  id='view'>View Tours</Link>
+    <Link to={`/destination/${dest.id}`}  id='view'>View Tours</Link>
     </div></div>
     </div>
   )

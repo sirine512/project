@@ -4,7 +4,6 @@ import '../Style/style.css'
 import ContactUs from './ContactUs'
 
 const NavBar = () => {
-  const [showContact, setShowContact] = useState(false);
   return (
     <div>
         <nav>
@@ -15,8 +14,7 @@ const NavBar = () => {
            <Link to={'/tours'}  id='cont'>Tours</Link>
            <Link to={'/galery'}  id='cont'>Galery</Link>
         </div>
-        <button onClick={()=> setShowContact(true)}>Contact Us</button>
-        {showContact && <ContactUs  setShowContact={setShowContact}/>}
+        <button>Contact Us</button>
         </nav>
     </div>
   )

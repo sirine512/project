@@ -41,6 +41,7 @@ nav button{
     right: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.6) ;
+    margin: 0;
 }
 #close-btn{
     position: absolute;
@@ -116,7 +117,7 @@ font-weight: 600;
     box-shadow: 9px 10px 10px 9px grey;
 }
 #pop{
-    padding: 40px 0 8px 50px;
+    padding: 60px 0 8px 50px;
     margin: 0;
     font-size: 2.5em;
     color: #00776f;
@@ -124,6 +125,18 @@ font-weight: 600;
 }
 .popDestCont{
     margin: 0;
+}
+#viewDestinations{
+padding-left:50px ;
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 500;
+color: #ffb434;
+}
+.popDestCont p{
+    width: 350px; 
+    padding: 10px 0 8px 50px;
+    color: slategray;
 }
 .destHome{
 padding-top: 80px;
@@ -140,16 +153,23 @@ gap: 50px;
     height: 25vw;
     position: relative;
 }
+.cardHome:hover {
+    transform: scale(1.1);
+   
+}
 .cardHome img{
     width: 100%;
     height: 100%;
 }
 #contentPop{
     position:absolute;
-    width: 90%;
+    width: 91.5%;
+    height: 27%;
     color: white;
     top: 230px;
-    left: 20px;
+    padding: 10px;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 /**PopularTours***/
 .popularTours{
@@ -171,15 +191,75 @@ text-decoration: none;
 font-size: 1.3em;
 font-weight: 500;
 color: #ffb434;
+}
+.tourshome{
+    display: flex;
+    padding: 50px;
+}
+/****services****/
+.services{
+    height: 15vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding:80px 100px;
+    gap: 150px;
+    text-align: center;
+}
+.services h1{
+    font-size: 2em;
+    color: #00776f;
+    padding-bottom: 15px;
+}
+.services p{
+    color: #7e7e7e;
+}
+/**/
+.post{
+    height: 30vw;
+    background: url(https://a.cdn-hotels.com/gdcs/production135/d1579/cbe33240-f585-11e8-b8fa-0242ac11000d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:-20vw;
+    box-shadow: 9px 10px 10px 9px grey;
 
+}
+/**/
+.photosHome{
+    height: 58vw;
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+.photosHome h1{
+    padding-top: 50px;
+    padding-bottom:8px;
+    font-size: 2.5em;
+    color: #00776f; 
+}
+#viewPhotos{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #ffb434;
 }
 
 
-/*********Destinations************/
+/**************************Destinations*****************************/
 .destHeader{
-    background: url(https://media.cntraveller.com/photos/611bed307048754865719a7c/16:9/w_2580,c_limit/2021.jpg);
+    background: url(https://thetourguy.com/wp-content/uploads/2022/04/best-places-to-visit-in-greece-feature-crop.jpg);
     background-size: cover;
-    height: 27.5vw;
+    height: 32vw;
+    text-align: center;
+}
+.destHeader>h1{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 220px;
+    color:whitesmoke;
+    font-size: 3em;
+
 }
 .destCards{
     display: flex;
@@ -205,7 +285,7 @@ color: #ffb434;
     width: 100%;
     height: 100%;
     top: 0;
-    background-color: rgb(0, 0, 0,0.3);
+    background-color: rgb(0, 0, 0,0.1);
     position: absolute;
 }
 #cardCont{
@@ -217,19 +297,58 @@ color: #ffb434;
 #cardCont h1{
 font-size: 3.5em;
 }
-/**********************Tours*******************/
+/*****************destination************/
+.destination-header{
+    height: 35vw;
+    text-align: center;
+}
+.destination-header>img{
+    width: 100%;
+    height: 100%;
+}
+#destination-header-content{
+   position: absolute;
+   top: 75px;
+    width: 100%;
+    height: 64.5%;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#destination-header-content>h1{
+    padding-top: 10vw;
+font-size: 5em;
+}
+.tours{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+
+}
+/*************************************Tours**********************************/
 .tourHeader{
-    height: 30vw;
-    background: url(https://www.mercierzeng.com/image/top-destinations/guilin-photography-tour.jpg);
+    height: 32vw;
+    background: url(https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180409183758/iStock-653952698-1.jpg);
     background-size: cover;
-    background-position-y: -15vw;
+    background-position-y: -20vw;
     background-repeat: no-repeat;
+    text-align: center;
+}
+#search{
+    padding-top: 20vw;
+
+}
+#search input{
+    width: 30vw;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 .tourCards{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 150px 100px 100px 100px ;
+    padding: 100px ;
     gap: 50px;
 }
 /***tourCard***/
@@ -238,6 +357,9 @@ font-size: 3.5em;
     height: 25vw;
     position: relative;
 
+}
+.cardTour:hover{
+    transform: scale(1.1);
 }
 .cardTour img{
     width: 100%;
@@ -251,13 +373,13 @@ color:white;
 position: absolute;
 text-align: center;
 top: 0;
-display: none;
+display:none;
 }
-.tourContent:hover{
-    display:block;
+.cardTour:hover  .tourContent{
+display:block;
 }
 .tourContent h2{
-margin-top: 150px;
+margin-top: 120px;
 }
 #showBtn{
     padding: 10px;
@@ -267,16 +389,93 @@ margin-top: 150px;
     border: solid white 2px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
+/**************Galery********************/
+.galeryHeader{
+    height: 32vw;
+    background: url(https://www.authentikusa.com/uploads/images/orig/blog/lac-tahoe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:-10vw ;
+    text-align: center;
+}
+.galeryHeader>h1{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-top: 220px;
+    color:whitesmoke;
+    font-size: 3em;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding: 100px;
+    gap: 50px;
+}
+.sharedPhoto{
+    width: 30%;
+    height: 17vw;
+}
+.sharedPhoto img{
+    width: 100%;
+    height: 100%;
+}
+.addPhoto{
+    border: #b1b1b1 solid 2px ;
+    border-radius: 5px;
+    width: 30%;
+    height: 17vw;
+    text-align: center;
+}
+.addPhoto>img{
+margin-top: 50px;
+}
+/******/
+.addModal{
+    height: 100vw;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    width: 50vw;
+    height: 25vw;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+#inputBox{
+    margin-top: 100px;
+    padding: 18px;
+    width: 28vw;
+    border:#b1b1b1 solid 0.5px;
+    border-radius: 50px;
+}
+#add{
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    border: white solid 1px;
+    background-color: #ffb434;
+    color: white;
+    margin-top: 30px;
+}
+#closeModal{
+    margin-right: 25px;
+    margin-top: 15px;
+    color: #7e7e7e;
+    font-size: 1.2em;
+    border: none;
+    background: none;
+}
 
 button{
     cursor: pointer;
+    
 }
